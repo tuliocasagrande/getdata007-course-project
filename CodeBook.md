@@ -2,6 +2,7 @@ The cleaning process
 --------------------
 
 The overall steps performed in run_analysis.R script to clean the original dataset are as follows:
+
 1. Merge the training, testing, subject id and activity id data to create one dataset;
     - Several files were used to collect such information, as *X_train.txt*, *subject_train.txt*, *y_train.txt* and the corresponding files for the test set;
     - The *features.txt* file was used to apropriately label the dataset with descriptive variable names;
