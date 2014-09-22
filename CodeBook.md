@@ -10,7 +10,7 @@ The overall steps performed in run_analysis.R script to clean the original datas
 3. Convert the activity ids to descriptive activity names;
     - The *activity_labels.txt* file was used;
 4. Calculate the average of each variable for each activity and each subject;
-5. Write the second dataset in a file called *tidyData.txt*.
+5. Write the resulting dataset in a file called *tidyData.txt*.
 
 
 
@@ -42,6 +42,4 @@ These features came from the accelerometer and gyroscope signals collected while
 
 Most variables has a "-XYZ" used to denote 3-axial signals in the X, Y and Z directions. Also, all variables have a "mean()" or "std()" to denote the mean value and standard deviation of the measurements.
 
-**The tidy dataset has only the average of each feature for each activity and each subject**. To examine the entire merged dataset, you may check the *mergedData* in the workspace.
-
-To examine the entire merged dataset, you can check the *mergedData* variable, available in the workspace after the end of the script.
+**The tidy dataset has only the average of each feature for each activity and each subject**. To examine the entire merged dataset, you can check the *mergedData* variable, available in the workspace after the end of the script.
