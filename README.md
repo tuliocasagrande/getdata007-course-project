@@ -45,7 +45,7 @@ Usage
 -----
 Simply run the script called **run_analysis.R**. If the dataset folder isn't in the current working directory, the script will download and unzip the data. This process may take a while, since the dataset has 60 MB.
 
-The script will produce the *tidyData.txt* file previously described
+The script will produce the *tidyData.txt* file previously described.
 
 
 
